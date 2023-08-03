@@ -1,39 +1,38 @@
-import React from "react";
 import { Link } from "react-router-dom"; // If you're using React Router for navigation
 
 const LandingPage = () => {
   return (
     <div className="h-[1750px] bg-site bg-no-repeat bg-cover overflow-hidden">
       <header>
-        <nav class="bg-white border-white-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
-          <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <a href="http://localhost:5173/#" class="flex items-center">
+        <nav className="bg-white border-white-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+          <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+            <a href="http://localhost:5173/#" className="flex items-center">
               <img
                 src="logo.png"
-                class="mr-3 h-6 sm:h-9 rounded-full"
+                className="mr-3 h-6 sm:h-9 rounded-full"
                 alt="Flowbite Logo"
               />
-              <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
                 InterviewPal
               </span>
             </a>
-            <div class="flex items-center lg:order-2">
+            <div className="flex items-center lg:order-2">
               <a
                 href="#"
-                class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+                className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
               >
                 Log in | Sign up
               </a>
               <button
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
-                class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 aria-controls="mobile-menu-2"
                 aria-expanded="false"
               >
-                <span class="sr-only">Open main menu</span>
+                <span className="sr-only">Open main menu</span>
                 <svg
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +44,7 @@ const LandingPage = () => {
                   ></path>
                 </svg>
                 <svg
-                  class="hidden w-6 h-6"
+                  className="hidden w-6 h-6"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -59,14 +58,14 @@ const LandingPage = () => {
               </button>
             </div>
             <div
-              class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+              className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
               id="mobile-menu-2"
             >
-              <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+              <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <a
                     href="#"
-                    class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                    className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                     aria-current="page"
                   >
                     Home
@@ -75,7 +74,7 @@ const LandingPage = () => {
                 <li>
                   <a
                     href="#"
-                    class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Features
                   </a>
@@ -83,7 +82,7 @@ const LandingPage = () => {
                 <li>
                   <a
                     href="#"
-                    class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Author
                   </a>
@@ -94,13 +93,13 @@ const LandingPage = () => {
         </nav>
       </header>
 
-      <section class="bg-white dark:bg-gray-900">
-        <div class="grid py-8 px-4 mx-auto max-w-screen-xl lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div class="place-self-center mr-auto lg:col-span-7">
-            <h1 class="mb-4 max-w-2xl text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-white">
+      <section className="bg-white dark:bg-gray-900">
+        <div className="grid py-8 px-4 mx-auto max-w-screen-xl lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div className="place-self-center mr-auto lg:col-span-7">
+            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl dark:text-white">
               InterviewPal: Your Virtual HR Manager
             </h1>
-            <p class="mb-6 max-w-2xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+            <p className="mb-6 max-w-2xl font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               Welcome, say "Hi" to InterviewPal, your personal virtual HR
               manager designed to revolutionize your interview preparation. Say
               goodbye to pre-interview jitters and uncertainties, as
@@ -109,11 +108,11 @@ const LandingPage = () => {
             </p>
             <a
               href="#"
-              class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 border border-white"
+              className="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 border border-white"
             >
               <Link to="/controller">Let's get started</Link>
               <svg
-                class="ml-2 -mr-1 w-5 h-5"
+                className="ml-2 -mr-1 w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +125,7 @@ const LandingPage = () => {
               </svg>
             </a>
           </div>
-          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <img
               src="https://n1s1.hsmedia.ru/a8/cc/65/a8cc658e68cb3e74828da742ac5ae703/2120x1414_0xac120003_18619087281594745177.jpg"
               alt="mockup"
@@ -136,20 +135,20 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section class="bg-gray-50 dark:bg-white">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div class="mb-8 max-w-screen-md lg:mb-16">
-            <h2 class="mb-4 text-4xl font-extrabold text-gray-500 dark:text-gray-900">
+      <section className="bg-gray-50 dark:bg-white">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <div className="mb-8 max-w-screen-md lg:mb-16">
+            <h2 className="mb-4 text-4xl font-extrabold text-gray-500 dark:text-gray-900">
               Designed for people who will be getting offers from big companies
               like you
             </h2>
-            <p class="text-gray-500 sm:text-xl dark:text-gray-900">
+            <p className="text-gray-500 sm:text-xl dark:text-gray-900">
               How to use this app?
             </p>
           </div>
-          <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div>
-              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
@@ -170,16 +169,16 @@ const LandingPage = () => {
                   </g>
                 </svg>
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-gray-900">
+              <h3 className="mb-2 text-xl font-bold dark:text-gray-900">
                 Upload your CV
               </h3>
-              <p class="text-gray-500 dark:text-gray-500">
+              <p className="text-gray-500 dark:text-gray-500">
                 Paste your CV as text or upload the CV & covert it into text &
                 save it.
               </p>
             </div>
             <div>
-              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
@@ -202,16 +201,16 @@ const LandingPage = () => {
                   </g>
                 </svg>
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-gray-900">
+              <h3 className="mb-2 text-xl font-bold dark:text-gray-900">
                 Fill out initial information
               </h3>
-              <p class="text-gray-500 dark:text-gray-500">
+              <p className="text-gray-500 dark:text-gray-500">
                 Fill out information such as job description, interview type,
                 language.
               </p>
             </div>
             <div>
-              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
@@ -224,10 +223,10 @@ const LandingPage = () => {
                   />
                 </svg>
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-gray-900">
+              <h3 className="mb-2 text-xl font-bold dark:text-gray-900">
                 Practise interviews as many times as you want
               </h3>
-              <p class="text-gray-500 dark:text-gray-500">
+              <p className="text-gray-500 dark:text-gray-500">
                 Practise multiple live iterations of your interview by talking
                 with our AI and get instantaneous feedback.
               </p>
@@ -236,46 +235,46 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section class="bg-white dark:bg-gray-900">
-        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-          <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
+      <section className="bg-white dark:bg-gray-900">
+        <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+          <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
               Are you nervous about upcoming job interviews?
             </h2>
-            <p class="mb-4">
+            <p className="mb-4">
               Do you wish you had a safe space to practice and receive
               constructive feedback on your answers? Look no further than
               InterviewPal – your virtual interview practice partner!
             </p>
-            <p class="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white">
+            <p className="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white">
               How InterviewPal Can Help:
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               Realistic Interview Simulation: Our cutting-edge AI-powered bot
               simulates real job interviews, providing you with a realistic
               interview experience.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               Personalized Feedback: InterviewBuddy doesn't just ask questions;
               it also evaluates your responses.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               Practice Anytime,Anywhere: Whether it's the middle of the night or
               during a lunch break, InterviewPal is available 24/7.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               Build Confidence: The more you practice, the more confident you'll
               become.
             </p>
           </div>
-          <div class="grid grid-cols-2 gap-4 mt-8">
+          <div className="grid grid-cols-2 gap-4 mt-8">
             <img
-              class="w-full rounded-lg"
+              className="w-full rounded-lg"
               src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
               alt="office content 1"
             />
             <img
-              class="mt-4 w-full rounded-lg lg:mt-10"
+              className="mt-4 w-full rounded-lg lg:mt-10"
               src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
               alt="office content 2"
             />
@@ -283,22 +282,22 @@ const LandingPage = () => {
         </div>
       </section>
       <section>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-white lg:my-4" />
-        <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-white lg:my-4" />
+        <div className="sm:flex sm:items-center sm:justify-between">
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
-            <a href="https://flowbite.com" class="hover:underline">
+            <a href="https://flowbite.com" className="hover:underline">
               InterviewPal™
             </a>
             . All Rights Reserved.
           </span>
-          <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+          <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-black"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -312,10 +311,10 @@ const LandingPage = () => {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-black"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -329,10 +328,10 @@ const LandingPage = () => {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-black"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -342,10 +341,10 @@ const LandingPage = () => {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-black"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -359,10 +358,10 @@ const LandingPage = () => {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-black"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"

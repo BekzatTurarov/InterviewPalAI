@@ -23,7 +23,9 @@ function Title({ setMessages }: Props) {
           setMessages([]);
         }
       })
-      .catch((err) => {});
+      .catch((err) => {
+        console.log(err);
+      });
 
     setIsResetting(false);
   };
