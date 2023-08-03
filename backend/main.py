@@ -45,12 +45,6 @@ app.add_middleware(
 # Check health
 
 
-@app.get("/")
-async def check_work():
-    return {"response": "Live"}
-
-
-# Check health
 @app.get("/health")
 async def check_health():
     return {"response": "healthy"}
