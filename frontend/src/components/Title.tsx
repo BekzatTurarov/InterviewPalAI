@@ -31,7 +31,7 @@ function Title({ setMessages }: Props) {
   };
 
   return (
-    <div className="flex justify-between items-center w-full p-4 bg-gray-900 text-white font-bold shadow">
+    <div className="flex justify-between items-center w-full p-4 bg-gray-800 text-white font-bold shadow">
       <div className="mb-1 max-w-2xl text-2xl font-extrabold leading-none md:text-2xl xl:text-2xl dark:text-white">
         InterviewPal: Your Virtual HR Manager
       </div>
