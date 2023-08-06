@@ -82,8 +82,8 @@ const Controller = () => {
                   <p
                     className={
                       audio.sender == "InterviewPal"
-                        ? "text-right mr-2 italic text-indigo-500"
-                        : "ml-2 italic text-blue-500"
+                        ? "text-right mr-2 italic text-indigo-700"
+                        : "ml-2 italic text-indigo-700"
                     }
                   >
                     {audio.sender}
