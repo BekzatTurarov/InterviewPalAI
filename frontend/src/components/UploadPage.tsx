@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"; // If you're using React Router for navigation
+
 const UploadPage: React.FC = () => {
   return (
     <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
       <header>
         <nav className="bg-white border-white-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <a href="http://localhost:5173/#" className="flex items-center">
+            <a href="http://localhost:5173/" className="flex items-center">
               <img
                 src="logo.png"
                 className="mr-3 h-6 sm:h-9 rounded-full"
@@ -75,11 +77,8 @@ const UploadPage: React.FC = () => {
                   placeholder="Enter your skills here..."
                 ></textarea>
               </div>
-              <a
-                className="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 border border-white"
-                href="/controller"
-              >
-                Upload
+              <a className="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 border border-white">
+                <Link to="/controller">Upload</Link>
                 <svg
                   className="ml-2 -mr-1 w-5 h-5"
                   fill="currentColor"
