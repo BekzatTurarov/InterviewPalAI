@@ -30,7 +30,7 @@ const Controller = () => {
 
         // send form data to api endpoint
         await axios
-          .post("https://interview-pal-ai.onrender.com/post-audio", formData, {
+          .post("http://localhost:8000/post-audio", formData, {
             headers: {
               "Content-Type": "audio/mpeg",
             },
@@ -42,7 +42,10 @@ const Controller = () => {
             audio.src = createBlobURL(blob);
 
             // Append to audio
-            const rachelMessage = { sender: "rachel", blobUrl: audio.src };
+            const rachelMessage = {
+              sender: "InterviewPal",
+              blobUrl: audio.src,
+            };
             messagesArr.push(rachelMessage);
             setMessages(messagesArr);
 
@@ -71,15 +74,15 @@ const Controller = () => {
                 key={index + audio.sender}
                 className={
                   "flex flex-col " +
-                  (audio.sender == "rachel" && "flex items-end")
+                  (audio.sender == "InterviewPal" && "flex items-end")
                 }
               >
                 {/* Sender */}
                 <div className="mt-4 ">
                   <p
                     className={
-                      audio.sender == "rachel"
-                        ? "text-right mr-2 italic text-green-500"
+                      audio.sender == "InterviewPal"
+                        ? "text-right mr-2 italic text-indigo-500"
                         : "ml-2 italic text-blue-500"
                     }
                   >
@@ -111,7 +114,7 @@ const Controller = () => {
         </div>
 
         {/* Recorder */}
-        <div className="fixed bottom-0 w-full py-6 border-t text-center bg-gradient-to-r from-indigo-500 to-white">
+        <div className="fixed bottom-0 w-full py-6 border-t text-center bg-white dark:bg-gray-900">
           <div className="flex justify-center items-center w-full">
             <div>
               <RecordMessage handleStop={handleStop} />
