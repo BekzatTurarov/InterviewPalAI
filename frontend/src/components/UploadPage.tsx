@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"; // If you're using React Router for navigation
-
 const UploadPage: React.FC = () => {
   return (
     <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
