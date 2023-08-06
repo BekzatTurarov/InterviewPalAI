@@ -7,11 +7,11 @@ const LandingPage = () => {
         <nav className="bg-white border-white-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a className="flex items-center">
-              <img
-                src="logo.png"
+              {/* <img
+                // src="logo.png"
                 className="mr-3 h-6 sm:h-9 rounded-full"
-                alt="Flowbite Logo"
-              />
+                alt="Logo"
+              /> */}
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
                 InterviewPal
               </span>
@@ -282,11 +282,8 @@ const LandingPage = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-white lg:my-4" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023{" "}
-            <a href="https://flowbite.com" className="hover:underline">
-              InterviewPal™
-            </a>
-            . All Rights Reserved.
+            © 2023 <a className="hover:underline">InterviewPal™</a>. All Rights
+            Reserved.
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a

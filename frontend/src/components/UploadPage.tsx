@@ -62,14 +62,6 @@ const UploadPage: React.FC = () => {
                 ></textarea>
               </div>
               <div className="relative grid grid-cols-1 gap-4 p-4 mb-8 border rounded-lg bg-white shadow-lg">
-                <h2 className="text-2xl font-semibold mb-2">Your major</h2>
-                <textarea
-                  className="w-full p-2 border rounded-md"
-                  rows={3}
-                  placeholder="Enter your skills here..."
-                ></textarea>
-              </div>
-              <div className="relative grid grid-cols-1 gap-4 p-4 mb-8 border rounded-lg bg-white shadow-lg">
                 <h2 className="text-2xl font-semibold mb-2">Job description</h2>
                 <textarea
                   className="w-full p-2 border rounded-md"
