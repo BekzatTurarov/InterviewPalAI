@@ -10,7 +10,7 @@ const LandingPage = () => {
               <img
                 src="logo.png"
                 className="mr-3 h-6 sm:h-9 rounded-full"
-                alt="Logo"
+                alt="Flowbite Logo"
               />
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
                 InterviewPal
