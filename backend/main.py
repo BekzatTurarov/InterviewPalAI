@@ -26,7 +26,7 @@ app = FastAPI()
 
 # CORS - Origins
 origins = [
-    "https://interview-pal-ai.onrender.com"
+    "https://interview-pal-ai.vercel.app"
 ]
 
 
